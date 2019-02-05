@@ -4,7 +4,7 @@ import Card from './Card';
 import './List.css';
 
 function List (props) {
-
+//console.log(props.cards.map);
   const CardList = props.cards.map((card) => {
 
     return (
